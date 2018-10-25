@@ -301,5 +301,23 @@ footer a {
   color: #555;
   text-decoration: underline;
 }
+@media only screen and (max-width: 1024px) {
+
+  .wrapper {
+    width: 90%;
+  }
+
+  #social {
+    position: absolute;
+    top: 100px;
+    right: 5%;
+    width: auto;
+  }
+
+  #social a {
+    display: inline-block;
+  }
+
+}
 
 /* code examples copyright Jonathan Grover 2012 */
