@@ -20,8 +20,30 @@
 
 .clear {
   clear: both;
+  margin-bottom: 15px;
 }
 
 /* Posititoning Classes */
 
+.col-1 {
+  width: 32%;
+  margin-left: 2%;
+}
 
+.col-2 {
+  width: 66%;
+  margin-left: 2%;
+}
+
+.col-3 {
+  background: #ccc;
+
+}
+
+.first {
+  margin-left: 0%;
+}
+
+[class*="col-"] {
+  float: left;
+}
